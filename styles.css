@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height:100%;
+    margin: 0;
+}
+body{
+    align-items: center;
+    background-color: pink;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-weight: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+li{
+    display: inline-block;
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span{
+    display: block;
+    padding: 1rem;
+}
+
+.emoji{
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span{
+    font-size: 4rem;
+    padding: 0.5rem;
+}
